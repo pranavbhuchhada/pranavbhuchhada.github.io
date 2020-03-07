@@ -1,0 +1,52 @@
+#title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#title h1 {
+    color: #FFF;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 92px;
+    letter-spacing: 10px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#title h2 {
+    width: 60%;
+    color: #FFF;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#social{
+    font-size: 33px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#social a{
+    color: #FFF;
+    padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+    #title h1 {
+        font-size: 48px;  
+        letter-spacing: 5px;
+    }
+    #title h2 {
+        width: 90%;
+        font-size: 24px;  
+    }
+    #social{
+        font-size: 36px;
+    }
+}
